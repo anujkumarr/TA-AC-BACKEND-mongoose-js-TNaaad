@@ -15,6 +15,5 @@ var addressSchema = new Schema({
   state: String,
   pin: Number,
   user: Schema.Types.ObjectId
-
 }, { timestamps: true })
 
