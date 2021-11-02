@@ -3,6 +3,7 @@ var mongoose = require("mongoose");
 
 
 mongoose.connect("mongodb://localhost/apps", (err) => {
-   console.log(err ? err : 'Connected to the database');
+
+   console.log(err ? err : 'Connected to the databasee');
 })
 
